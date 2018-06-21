@@ -15,6 +15,9 @@
       function (e) {
           //$("table.roster thead tr th").each(function(i) { if (i != 0) { $(this).html("<a>" + $(this).html() + "</a>").click(function (e) {alert("hi");}); } });
 
+          // The following was modified from Nick Grealy's excellent answer on StackOverflow: 
+          // https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript/14268260
+
           const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
           const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
