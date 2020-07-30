@@ -6,6 +6,7 @@
 // @author       John C. Bowers
 // @match        https://canvas.jmu.edu/courses/*/users
 // @grant        none
+// @require      http://code.jquery.com/jquery-3.4.1.min.js
 // ==/UserScript==
 
 (function() {
